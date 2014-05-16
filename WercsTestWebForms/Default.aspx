@@ -7,7 +7,12 @@
         <asp:TextBox runat="server" ID="strReverseOutput" ReadOnly="True"></asp:TextBox>
     </asp:Panel>
     <asp:Panel runat="server" ID="LanguageXmlPanel">
-        
+        <asp:Table runat="server" ID="xmlLoadTable">
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server">Languages</asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+        <asp:Button runat="server" ID="xmlLoadButton" Text="Load"/>
     </asp:Panel>
     <asp:Panel runat="server" ID="LanguageSqlPanel">
         

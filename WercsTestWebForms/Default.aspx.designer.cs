@@ -58,6 +58,24 @@ namespace WercsTestWebForms {
         protected global::System.Web.UI.WebControls.Panel LanguageXmlPanel;
         
         /// <summary>
+        /// xmlLoadTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table xmlLoadTable;
+        
+        /// <summary>
+        /// xmlLoadButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button xmlLoadButton;
+        
+        /// <summary>
         /// LanguageSqlPanel control.
         /// </summary>
         /// <remarks>
