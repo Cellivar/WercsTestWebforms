@@ -14,5 +14,15 @@ namespace WercsTestWebForms.DAL
         {
             return new LocalDBDataContext().T_Languages.Take(number).ToArray();
         }
+
+        /// <summary>
+        /// Get a language based on the language name
+        /// </summary>
+        /// <param name="name">Language name to find</param>
+        /// <returns>Language</returns>
+        public static T_Language GetLanguageByName(string name)
+        {
+            return new LocalDBDataContext().T_Languages.Single(lang => lang.F_Language == name);
+        }
     }
 }

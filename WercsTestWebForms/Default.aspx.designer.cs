@@ -49,6 +49,24 @@ namespace WercsTestWebForms {
         protected global::System.Web.UI.WebControls.TextBox strReverseOutput;
         
         /// <summary>
+        /// LanguageSqlPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel LanguageSqlPanel;
+        
+        /// <summary>
+        /// sqlTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table sqlTable;
+        
+        /// <summary>
         /// LanguageXmlPanel control.
         /// </summary>
         /// <remarks>
@@ -76,12 +94,39 @@ namespace WercsTestWebForms {
         protected global::System.Web.UI.WebControls.Button xmlLoadButton;
         
         /// <summary>
-        /// LanguageSqlPanel control.
+        /// LanguageModalPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel LanguageSqlPanel;
+        protected global::System.Web.UI.WebControls.Panel LanguageModalPanel;
+        
+        /// <summary>
+        /// LanguageModalTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox LanguageModalTitle;
+        
+        /// <summary>
+        /// LanguageModalTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table LanguageModalTable;
+        
+        /// <summary>
+        /// LanguageModalCloseButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button LanguageModalCloseButton;
     }
 }
